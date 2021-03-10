@@ -1,21 +1,27 @@
 import React from 'react';
-import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
+import { Grid,Container } from '@material-ui/core';
 import homepageimage from '../../images/backgroung.jpg';
 import useStyles from './style'
+import Header from './header/header'
+
+import ImageHolder from './imageHolder/imageHolder'
 
 const Home = () => {
     const classes = useStyles(); 
     return(
-        <Card className={classes.card}  >
-            <Typography className={classes.title} variant="h6">Surfing and CHILL!</Typography>
-            <CardMedia  className={classes.media} image={homepageimage} title="HomePage"></CardMedia>
-            {/* <CardContent>
-                <Typography variant="body2" component="p">
-                    Welcome Welcome!
-                </Typography>
-            </CardContent> */}
-        </Card>
-        
+        <>
+        <Header />
+        <Container>
+            <Grid container className={classes.mainContainer} justify="space-between" alignItems="stretch" spacing={3}>
+                <Grid xs={12} sm={7}>
+                    <ImageHolder />
+                </Grid>
+                <Grid xs={12} sm={4}>
+                    
+                </Grid>
+            </Grid>
+        </Container>
+        </>
     );
 }
 
