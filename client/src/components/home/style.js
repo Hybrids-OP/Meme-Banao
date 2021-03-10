@@ -11,7 +11,8 @@ export default makeStyles((theme) => ({
         color:'#0b090a'
     },
     media:{
-        minHeight: 400
+        minHeight: 400,
+        margin: theme.spacing(1),
     }
 
 }))
