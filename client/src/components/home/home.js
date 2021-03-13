@@ -5,6 +5,7 @@ import useStyles from './style'
 import Header from './header/header'
 
 import ImageHolder from './imageHolder/imageHolder'
+import ImageEditor from './imageEditor/imageEditor';
 
 const Home = () => {
     const classes = useStyles(); 
@@ -13,11 +14,11 @@ const Home = () => {
         <Header />
         <Container>
             <Grid container className={classes.mainContainer} justify="space-between" alignItems="stretch" spacing={3}>
-                <Grid xs={12} sm={7}>
+                <Grid xs={12} sm={6}>
                     <ImageHolder />
                 </Grid>
-                <Grid xs={12} sm={4}>
-                    
+                <Grid xs={12} sm={6} >
+                    <ImageEditor />
                 </Grid>
             </Grid>
         </Container>

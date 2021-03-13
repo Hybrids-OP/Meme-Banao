@@ -8,10 +8,10 @@ const Header = () => {
         <Grid container maxWidth="sm">
             <Grid item sm={12}>
                 <Paper className={classes.paper} elevation={3}>
-                    <Typography component="div" variant="h5"><span style={{color: 'red'}}>Meme</span>Banao</Typography>
+                    <Typography variant='h4'>Meme-Banao</Typography>
                     <Typography className={classes.para} variant="body2">
-                    <p>Here You can make Memes<br/>
-                    Become A MemeLord!</p>
+                    <p>Wanna become a MEMELORD?<br/>
+                    Start below with one of the the best and easiest way on earth!</p>
                     </Typography>
                 </Paper>
             </Grid>

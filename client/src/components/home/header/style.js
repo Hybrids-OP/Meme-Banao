@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   },
   para:{
     marginTop:theme.spacing(2),
-    maxWidth: '30%',
+    maxWidth: '70%',
   },
 }))
 
