@@ -33,8 +33,9 @@ export default makeStyles((theme) => ({
         marginRight:0,
         marginLeft:0,
         fontSize:60,
-        backgroundColor:"#023047"
-        
+        backgroundColor:"#023047",
+        borderRadius: "505%",
+        alignItems
     },
     resetButton:{
         marginLeft:0,
