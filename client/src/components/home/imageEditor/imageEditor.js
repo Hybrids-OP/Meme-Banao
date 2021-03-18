@@ -25,7 +25,7 @@ const ImageEditor = () => {
                     </Button>
                 </label>
             <TextField
-                className={classes.textf} 
+                className={classes.textf}
                 name='message'
                 variant='outlined'
                 label='Add Text at the top of the image'

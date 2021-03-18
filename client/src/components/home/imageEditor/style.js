@@ -27,6 +27,7 @@ export default makeStyles((theme) => ({
         margin:theme.spacing(2),
         backgroundColor:"#a8dadc",
         
+        
     },
     submitButton:{
         fontFamily:'Montserrat',
@@ -34,7 +35,6 @@ export default makeStyles((theme) => ({
         marginLeft:0,
         fontSize:60,
         backgroundColor:"#023047",
-        borderRadius: "505%",
     },
     resetButton:{
         marginLeft:0,
